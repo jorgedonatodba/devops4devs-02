@@ -24,8 +24,8 @@ jobs:
           push: true
           file: ./src/Review-Filmes.Web/Dockerfile
           tags: | 
-            fabricioveronez/review-filmes:v${{ github.run_number }}
-            fabricioveronez/review-filmes:latest
+            jorgedonato/review-filmes:v${{ github.run_number }}
+            jorgedonato/review-filmes:latest
   CD:
     runs-on: ubuntu-latest
     needs: [CI]
